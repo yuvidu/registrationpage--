@@ -1,0 +1,195 @@
+
+
+/* Box styling */
+#box {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); /* Center the box */
+  width: 100%;
+  max-width: 800px; /* Set a max-width for better responsiveness */
+  background-color: rgba(94, 0, 131, 0.1); /* Fixed background color syntax */
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  display: flex;
+  flex-direction: row; /* Horizontal layout to divide box into two halves */
+  justify-content: center; /* Center the content */
+  align-items: center; /* Vertically center content */
+  height: auto;
+  min-height: 300px;  /* Set a minimum height for the box */
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.15), 5px -5px 10px rgba(0, 0, 0, 0.15); /* Shadow from top, bottom, and left */
+
+}
+
+/* Left side - logo container */
+.logo-container {
+  width: 50%;  /* Take up half of the container width */
+  display: flex;  /* Use flexbox to align logo, text, and paragraph horizontally */
+  justify-content: flex-start;  /* Align items horizontally */
+  align-items: center;  /* Center content vertically */
+  gap: 15px;  /* Add space between items */
+  display: flex;
+  flex-direction: column;
+  }
+
+/* Styling for the logo */
+.logo {
+  width: 80px; /* Adjust logo size */
+  height: auto;
+  max-width: 100%; /* Ensure logo doesn't overflow */
+}
+
+/* Styling for the text */
+.logo-container p {
+  font-size: 16px; /* Set the text size */
+  color: white;  /* Set the text color */
+  margin: 0;  /* Remove margin from paragraphs */
+  padding: 0;  /* Remove padding */
+}
+
+/* If you want to adjust the text or paragraphs individually, you can add specific classes */
+.logo-container p:first-child {
+  margin-right: 10px;  /* Add some space between the logo and the first paragraph */
+}
+
+
+
+/* Right side - form container */
+.form-container {
+  width: 50%;  /* Take up half of the container width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center form vertically */
+  padding-left: 20px; /* Optional: space between logo and form */
+}
+
+/* Form styling */
+form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px; /* Set border-radius for all corners */
+  border-top-left-radius: 0; /* Remove top-left corner radius */
+  border-bottom-left-radius: 0; /* Remove bottom-left corner radius */
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Ensure the container is using flexbox and aligning buttons in a column */
+.social-buttons {
+  display: flex;
+  flex-direction:row;  /* Align buttons in a column */
+  align-items: center;     /* Center the buttons horizontally */
+  padding: 1px;      /* Adds space between the form and the buttons */
+}
+
+/* Individual social media buttons */
+.social-button {
+  width: 40%;            /* Buttons take up 30% of the container's width */
+  padding: 12px;         /* Add padding inside the button */
+  margin: 0 10px;        /* Adds space between the buttons */
+  border: none;
+  border-radius: 25px;   /* Rounded corners */
+  color: white;          /* White text */
+  font-size: 16px;       /* Font size */
+  cursor: pointer;      /* Cursor pointer when hovering */
+  display: inline-block; /* Buttons are inline-blocks */
+  text-align: center;    /* Centers text inside the button */
+  font-size: 14px; /* Adjust to your desired size */
+}
+.social-button i {
+  margin-right: 8px; /* Increase the space between the icon and the text */
+}
+
+.social-button.facebook {
+  background-color: #3b5998; /* Facebook color */
+}
+
+.social-button.twitter {
+  background-color: #1da1f2; /* Twitter color */
+}.social-button.google {
+  background-color: #db4437; /* Google color */
+}
+/* Hover effect for the buttons */
+.social-button:hover {
+  opacity: 0.8;              /* Slightly transparent when hovered */
+}.text1 {
+  display: flex;            /* Use flexbox for centering */
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  margin-top: 20px;         /* Optional: add space above the text */
+}
+
+.text1 p {
+  margin: 0;  
+                /* Remove default margin */
+}
+
+#Login_link{
+  color: rgba(156, 39, 176, 1);
+  ;
+  text-decoration: none; 
+  font-size: 13px; 
+}
+
+.heading{
+  display: flex;
+  flex-direction:row;  /* Align buttons in a column */
+  align-items: center;     /* Center the buttons horizontally */
+  padding: 10px;      /* Adds space between the form and the buttons */
+  
+}
+
+h1{
+  margin-right: 20%;
+}
+.password{
+  display: flex;
+  flex-direction:row;  /* Align buttons in a column */
+  align-items: center;     /* Center the buttons horizontally */
+  
+  padding: 0px;      /* Adds space between the form and the buttons */
+}
+
+* {
+  font-family: 'Open Sans';
+  
+}
+#submit{
+  background-color:  rgba(139, 195, 74, 1);
+  
+
+}
+#agrrement{
+  color:  rgba(139, 195, 74, 1);
+}
