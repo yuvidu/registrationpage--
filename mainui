@@ -1,0 +1,5 @@
+<script>start("c:\\Users\\Admin\\Desktop\\registerpage\\registration-page\\src\\mainui\\");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("mainassert","mainassert",1,0,"0 B",1737951093,"1/27/25, 9:41:33 AM");</script>
+<script>addRow("mainui.css","mainui.css",0,0,"0 B",1738120499,"1/29/25, 8:44:59 AM");</script>
+<script>addRow("mainui.jsx","mainui.jsx",0,1582,"1.5 kB",1737957871,"1/27/25, 11:34:31 AM");</script>
